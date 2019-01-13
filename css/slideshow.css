@@ -9,7 +9,8 @@
     width: 100%;
     height: 600px;
     overflow: hidden;
-    background-image: url("../images/bg.jpg");
+    color: #FFFFFF;
+    background-image: url("../images/bg.jpeg");
     background-size: 100% auto;
     background-repeat: no-repeat;     
     border-top: 10px solid #ffffff;
