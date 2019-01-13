@@ -62,7 +62,7 @@ $("#slideshow").preLoadImages(function(){
     
     // global variables    
     var iteration = 1; // number of the fadingSlider() function iteration to be set according to slidenum
-    var captionFadeinSpeed = 4000;
+    var captionFadeinSpeed = 2000;
     
     // count the number of the slides to be shown
     function countChildElements(parent, child)
@@ -126,7 +126,7 @@ $("#slideshow").preLoadImages(function(){
            fontsize += 30;
            left += 10;
            paragraph.append("<span class=\"fadein\">" + splitedCaption[i]+"</span><br />");
-           paragraph.find('span.fadein:last').css({"font-size":fontsize + "%", "margin-left":left+"px", "font-weight":"900","text-shadow":"1px 1px 2px black, 0 0 1em rgba(240, 220, 180, 0.5), 0 0 0.2em rgba(240, 220, 180, 0.5)"}).stop(true, true).delay(i*4000).fadeIn(captionFadeinSpeed, "linear", function(){});   
+           paragraph.find('span.fadein:last').css({"font-size":fontsize + "%", "margin-left":left+"px", "font-weight":"900","text-shadow":"1px 1px 2px black, 0 0 1em rgba(240, 220, 180, 0.5), 0 0 0.2em rgba(240, 220, 180, 0.5)"}).stop(true, true).delay(i*2000).fadeIn(captionFadeinSpeed, "linear", function(){});   
         }
         callback();
         }
