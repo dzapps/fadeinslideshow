@@ -12,9 +12,9 @@ This is the initial version of the Storyteller that I developed mostly for learn
 ## Getting Started
 
 - Create `css`, `js`, and `images` folders and copy all files from this repository into respective folders:
-    **in your `css` folder, you should have `slideshow.css`, `skeleton.css`, `normalize.css`, and `jquery.jscrollpane.css` files;
-    **in your `js` folder, you should have `slideshow.js`, `jquery-3.2.1.min.js`, `jquery.jscrollpane.min.js`, and `jquery.mousewheel.js`
-    **copy all photos to your `images` folder.
+    *in your `css` folder, you should have `slideshow.css`, `skeleton.css`, `normalize.css`, and `jquery.jscrollpane.css` files;
+    *in your `js` folder, you should have `slideshow.js`, `jquery-3.2.1.min.js`, `jquery.jscrollpane.min.js`, and `jquery.mousewheel.js`
+    *copy all photos to your `images` folder.
 - Copy the content of `index.html` to your `html` file, make sure that all `.css` and `.js` files are linked correctly, and 
   open file in your favorite browser.
   
